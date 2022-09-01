@@ -55,19 +55,6 @@ public class Pila {
             return elemento;
         }
     }
-
-    public void MostrarPila() { //imprimir pila
-        if (tamanio == 0) {
-            System.out.println("PILA VACIA");
-        } else {
-            NodoPila recorrer = top;
-            while (recorrer != null) {
-                System.out.println(recorrer.dato + "" + recorrer.dato2 + "" + recorrer.dato3);
-                recorrer = recorrer.nodoAbajo;
-            }
-
-        }
-    }
     
     public void MostrarPilaConDias(int dia) { //imprimir pila
         if (tamanio == 0) {
