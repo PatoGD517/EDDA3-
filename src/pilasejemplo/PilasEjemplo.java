@@ -38,7 +38,7 @@ public class PilasEjemplo {
         pilaDos.Push('E', 1, 5);
         
         
-        //refrescos iniciales
+        //refrescos iniciales 
         miPila.Push('L', 1, 1);
         miPila.Push('L', 1, 2);
         miPila.Push('L', 1, 3);
